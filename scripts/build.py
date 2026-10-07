@@ -53,7 +53,7 @@ def main():
     digest = hashlib.sha256(destination.read_bytes()).hexdigest()
     (destination.parent / "SHA256SUMS").write_text(
         "".join(f"{digest}  {p.name}\n" for p in (destination, zip_copy)),
-        encoding="utf-8", newline="\n")
+        encoding="utf-8")
     print(f"Validated and packaged: {destination}\nSHA256: {digest}")
 
 
