@@ -1,0 +1,61 @@
+{
+  "manifest_version": 2,
+  "name": "Empire temporelle",
+  "version": "1.0.0",
+  "description": "Plugin Thunderbird UI : thÃ¨me sombre violet impÃ©rial et vert Ã©meraude, avec anneaux temporels et circuits futuristes.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{34ac25d6-bcce-4aac-ae1a-eb14f728d48a}",
+      "strict_min_version": "102.0"
+    }
+  },
+  "theme": {
+    "images": {
+      "theme_frame": "temporal.svg"
+    },
+    "properties": {
+      "color_scheme": "dark",
+      "content_color_scheme": "dark"
+    },
+    "colors": {
+      "frame": "#100b1d",
+      "frame_inactive": "#171222",
+      "tab_background_text": "#e3d8f5",
+      "tab_selected": "#38204f",
+      "tab_text": "#ffffff",
+      "tab_line": "#5af3b7",
+      "tab_loading": "#5af3b7",
+      "tab_background_separator": "#503568",
+      "toolbar": "#191125",
+      "toolbar_text": "#efe7fa",
+      "toolbar_field": "#0d0c17",
+      "toolbar_field_text": "#f2edfa",
+      "toolbar_field_border": "#51366b",
+      "toolbar_field_focus": "#211530",
+      "toolbar_field_text_focus": "#ffffff",
+      "toolbar_field_border_focus": "#5af3b7",
+      "toolbar_field_highlight": "#613987",
+      "toolbar_field_highlight_text": "#ffffff",
+      "toolbar_top_separator": "#38234d",
+      "toolbar_bottom_separator": "#362447",
+      "toolbar_vertical_separator": "#51366b",
+      "icons": "#ddd2ef",
+      "icons_attention": "#5af3b7",
+      "button_background_hover": "#39244f",
+      "button_background_active": "#513268",
+      "popup": "#1b1328",
+      "popup_text": "#f2edfa",
+      "popup_border": "#634783",
+      "popup_highlight": "#413055",
+      "popup_highlight_text": "#ffffff",
+      "sidebar": "#130e1e",
+      "sidebar_text": "#e3d8f5",
+      "sidebar_border": "#38234d",
+      "sidebar_highlight": "#38204f",
+      "sidebar_highlight_text": "#ffffff",
+      "sidebar_highlight_border": "#5af3b7"
+    }
+  },
+  "author": "Slim SOLTANI",
+  "homepage_url": "https://github.com/soltani-a/soltania-thunderbird-ui-empire-temporelle"
+}
