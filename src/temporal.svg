@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="200" viewBox="0 0 3000 200">
+ <defs>
+  <linearGradient id="bg"><stop stop-color="#100b1d"/><stop offset=".63" stop-color="#160e24"/><stop offset=".88" stop-color="#302044"/><stop offset="1" stop-color="#112a29"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#40dba0" stop-opacity=".18"/><stop offset="1" stop-color="#40dba0" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="60" height="40" patternUnits="userSpaceOnUse"><path d="M0 40L30 0H60" fill="none" stroke="#b884e4" stroke-opacity=".035"/></pattern>
+ </defs>
+ <path fill="url(#bg)" d="M0 0H3000V200H0z"/><path fill="url(#grid)" d="M0 0H3000V200H0z"/>
+ <ellipse cx="2740" cy="60" rx="350" ry="170" fill="url(#aura)"/>
+ <g fill="none" stroke="#8054a9" stroke-opacity=".32">
+  <path d="M870 160H1720L1840 40H2130L2180 90H2430M1310 180H1880L1960 100H2220L2270 150H2570M1800 15H2310L2390 95H2520"/>
+  <path d="M3000 175H2840L2790 125H2580L2530 175H2300M3000 12H2890L2845 57H2590"/>
+ </g>
+ <g transform="translate(2740 65)" fill="none">
+  <circle r="153" stroke="#8f5fb3" stroke-width="9" opacity=".13"/>
+  <circle r="142" stroke="#b288d4" opacity=".3"/>
+  <circle r="126" stroke="#58efb5" stroke-width="2" stroke-dasharray="135 12 25 12" opacity=".45"/>
+  <circle r="115" stroke="#58efb5" stroke-width="6" stroke-dasharray="1 17" opacity=".25"/>
+  <circle r="98" stroke="#9d6bc6" stroke-width="2" opacity=".5"/>
+  <circle r="85" stroke="#71ecc4" stroke-dasharray="65 25" opacity=".23"/>
+  <path d="M-35-48H35L18-20V20L35 48H-35L-18 20V-20Z M-18-20L18 20M18-20L-18 20" stroke="#5ceab3" stroke-width="2" opacity=".4"/>
+ </g>
+ <g fill="#5af3b7" opacity=".45"><circle cx="2430" cy="90" r="3"/><circle cx="2570" cy="150" r="3"/><circle cx="2310" cy="15" r="3"/></g>
+</svg>
